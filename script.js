@@ -228,14 +228,14 @@ function drop(e) {
   rebuildArrays();
 }
 
-// Event listner
-addItemContainers.forEach((conatiner, i) => {
-  conatiner.addEventListener("focusout", () => {
-    addBtns[i].style.display = "flex";
-    saveItemBtns[i].style.display = "none";
-    addItemContainers[i].style.display = "none";
-  });
-});
+// // Event listner
+// addItemContainers.forEach((conatiner, i) => {
+//   conatiner.addEventListener("focusout", () => {
+//     addBtns[i].style.display = "flex";
+//     saveItemBtns[i].style.display = "none";
+//     addItemContainers[i].style.display = "none";
+//   });
+// });
 
 // on load
 updateDOM();
